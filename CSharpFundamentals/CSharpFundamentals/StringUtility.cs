@@ -16,14 +16,9 @@ namespace CSharpFundamentals
             foreach(var word in words)
             {
                 mywords.Add(word);
-                if (characters + word.Length + 1 < maxLength)
-                {
-                    characters += 1 + word.Length;
-                }
-                else
-                {
+                characters += 1 + word.Length;
+                if (characters > maxLength)
                     break;
-                }
             }
             var output = string.Join(" ", mywords) + "...";
             return output;
