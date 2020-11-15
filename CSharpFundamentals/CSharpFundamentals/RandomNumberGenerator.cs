@@ -2,7 +2,7 @@
 
 namespace CSharpFundamentals
 {
-    class RandomNumberGenerator
+    public class RandomNumberGenerator
     {
         public static void Run()
         {
