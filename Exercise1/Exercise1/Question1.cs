@@ -2,9 +2,9 @@
 
 namespace Exercise1
 {
-    public class Question1
+    class Question1
     {
-        public static void RunQuestion1()
+        public static void Run()
         {
             Console.WriteLine("Enter a number between 1 to 10.");
             var input = int.Parse(Console.ReadLine());

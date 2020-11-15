@@ -5,7 +5,8 @@ namespace Exercise1
     {
         static void Main(string[] args)
         {
-            Question1.RunQuestion1();
+            //Question2.Run();
+            Question3.Run();
         }
     }
 }
